@@ -1,0 +1,36 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "NJ Dialer API",
+  "openapi": "openapi.json",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373"
+  },
+  "navigation": [
+    {
+      "group": "Introducción",
+      "pages": ["introduction"]
+    },
+    {
+      "group": "Llamadas",
+      "pages": [
+        "api-reference/originate-call",
+        "api-reference/say",
+        "api-reference/audio-fork-start",
+        "api-reference/break",
+        "api-reference/hangup"
+      ]
+    }
+  ],
+  "api": {
+    "auth": {
+      "method": "bearer"
+    }
+  }
+}
