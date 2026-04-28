@@ -7,7 +7,7 @@
     "light": "#07C983",
     "dark": "#0D9373"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "",
   "navigation": {
     "groups": [
       {
@@ -27,10 +27,6 @@
         ]
       }
     ]
-  },
-  "logo": {
-    "light": "",
-    "dark": ""
   },
   "api": {
     "openapi": "openapi.json",
